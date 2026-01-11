@@ -1,0 +1,26 @@
+baseURL = 'https://loganreed.org/'
+languageCode = 'en-us'
+title = 'Logan Reed'
+theme = 'HugoTeX'
+enableInlineShortcodes = true
+foornoteReturnLinkContents = "^"
+
+[pagination]
+  pagerSize = 3
+
+[Params.author]
+  name = "Logan Reed"
+  abstract = """
+  I'm a graduate student at Temple University in Mathematics.
+  My primary interest is Numerical Linear Algebra.
+  """
+
+[markup.highlight]
+  style = 'dracula'
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"
+
+  
